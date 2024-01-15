@@ -1,14 +1,11 @@
-import { Header } from './views/Header/Header'
+import { Header } from "./views/Header/Header";
+import { Footer } from "./views/Footer/Footer";
+import { Main } from "./views/Main/Main";
 const App = () => (
   <>
     <Header />
-    <main>
-      <p>Текст</p>
-    </main>
-    <footer>
-      Текст2
-    </footer>
-
+    <Main />
+    <Footer />
   </>
 );
 
